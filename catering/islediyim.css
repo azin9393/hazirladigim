@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* NAVIGATION */
+nav {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 10px #aaaaaa;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+    /* UL yazanda hemise margin ve paddingi sifirlayiriq */
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    /* background-color: lightblue; */
+}
+
+ul li {
+    list-style-type: none;
+    /* background-color: green; */
+    padding: 7px 15px;
+}
+
+.page-markap a {
+    /* background-color: aqua; */
+    padding: 7px 15px;
+}
+
+/* Li uzerine miskani getirende get backgrouind color ver */
+ul li:hover, 
+.page-markap a:hover {
+    background-color: lightgray;
+}
+
+
+
+
+
+/* ========= HEADER SECTION */
+
+.header {
+    /* background-color: blue; */
+    height: 80vh;
+    /* Gorduyumuz y uzre faiz */
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.bg-image {
+    /* background-color: yellow; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('hamburger.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image h2 {
+    margin-left: 20px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: rgb(89, 89, 89);
+    font-weight: 100;
+}
+
+
+
+
+/* =========== ABOUT SECTION */
+
+.about, 
+.menu {
+    /* background-color: lightseagreen; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container,
+.menu-container {
+    width: 50%;
+    height: 65vh;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.about-img,
+.menu-img {
+    width: 47%;
+     background-image: url('tablesetting2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.menu-img{
+    background-image: url('tablesetting.jpg');
+}
+
+.about-content,
+.menu-content {
+    width: 47%;
+}
+
+
+.about-content h2 {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.about-content h6 {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+
+.about-content p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.second-p-tag {
+    color: rgb(110, 110, 110);
+}
+
+
+
+/* ======= MENU CONTENT */
+.contact{margin-left:30px; 
+    letter-spacing: 5px; font-weight: 100; font-size:40px;
+
+}
+.yazi1{margin-left:30px;  font-size:18px;
+    
+
+}
+.yazi2{margin-left:30px;  font-size:20px; color:#607d8b;} 
+.name{width:1340px; height:60px; margin-left:30px; }
+.yazi3{margin-left:30px;  font-size:18px;
+    
+
+}
+button{ height:38px; width:120px; position:relative; top:80px; right:745px; border:none;}
+.power{color:#000000; padding:32px 0; font-size:15px; background-color:#f1f1f1; }
+.sonyazi{text-align:center; }
+.link{color:black;}
+.link:hover {
+    color: green;
+}
+.our{text-align:center; font-size:35px; letter-spacing: 3px; }
+.menu h3{letter-spacing: 2px;}
+.yazilar{width:800px;  margin-bottom:40px; margin-left:350px;  }
+.forum input{width:740px; border:none; border-bottom:1px solid; font-size:20px;}
+.forum{margin-left:350px; margin-bottom:150px;}
+button:hover{background-color:rgb(210, 202, 202); }
+
+
+	
