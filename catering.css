@@ -188,7 +188,7 @@ button{ height:38px; width:120px; position:relative; top:80px; right:745px; bord
 .our{text-align:center; font-size:35px; letter-spacing: 3px; }
 .menu h3{letter-spacing: 2px;}
 .yazilar{width:800px;  margin-bottom:40px; margin-left:350px;  }
-.forum input{width:740px; border:none; border-bottom:1px solid; font-size:20px;}
+.forum input{width:740px; border:none; border-bottom:1px solid; font-size:15px;}
 .forum{margin-left:350px; margin-bottom:150px;}
 button:hover{background-color:rgb(210, 202, 202); }
 
